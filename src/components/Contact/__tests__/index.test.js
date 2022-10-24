@@ -19,7 +19,7 @@ describe('Contact component', () => {
 })
 
 describe('shows text content', () => {
-  it('text matches text contect', () => {
+  it('text matches text content', () => {
     const { getByTestId } = render(<ContactForm/>);
 
     expect(getByTestId('contact')).toHaveTextContent('Contact me');
